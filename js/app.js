@@ -1,4 +1,9 @@
-
+function showUserName() {
+    var userName = prompt("Введите Ваше имя: ", "");
+    if (userName !== null) {
+        alert(`Здравствуйте, ${userName}!`);
+    }
+}
 function askName() {
     //Ввод данных
    // let name = prompt("Введите имя", "Имя")
@@ -21,3 +26,4 @@ function askName() {
     document.getElementById("error").innerText = ''
 }
 
+showUserName();

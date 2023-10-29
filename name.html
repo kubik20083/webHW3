@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Пример использования функции prompt</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function showUserName() {
+            var userName = prompt("Введите Ваше имя: ", "");
+            if (userName !== null) {
+                alert(`Здравствуйте, ${userName}!`);
+            }
+        }
+
+        showUserName();
+    </script>
+</body>
+</html>
